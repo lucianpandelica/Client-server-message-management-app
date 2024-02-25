@@ -1,7 +1,6 @@
 # Client-server message management app
 
 ## _Structura de functionare a serverului:_
----
 
 Serverul foloseste multiplexare cu epoll pentru a realiza gestiunea mesajelor
 de la, respectiv catre clienti.
@@ -222,7 +221,6 @@ si de topicuri si se inchide serverul.
 
 
 ## _Structura de functionare a clientului TCP:_
----
 
 Clientul foloseste, precum serverul, multiplexare cu epoll pentru a gestiona
 mesajele primite de la server si de la tastatura, precum si pentru a trimite
@@ -259,7 +257,6 @@ si il afisam in intregime.
 
 
 ## _Alte mentiuni:_
----
 
 Atat serverul, cat si clientul, contin un mod de debug ce afiseaza mai multe
 mesaje in plus, informative / de eroare, pe parcursul executiei. Acesta se
@@ -281,7 +278,6 @@ Sisteme de Operare, de semestrul trecut. Tot de acolo am preluat si headerul
 
 
 ## _Bibliografie:_
----
 
 https://pcom.pages.upb.ro/labs/
 https://man7.org/linux/man-pages/man2/socket.2.html
